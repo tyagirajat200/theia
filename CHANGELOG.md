@@ -11,8 +11,14 @@
 - [console] fixed issue in Debug console where console history was not being trimmed in accordance with the maximum commands limit [#10598](https://github.com/eclipse-theia/theia/pull/10598)
 
 <a name="breaking_changes_1.26.0">[Breaking Changes:](#breaking_changes_1.26.0)</a>
-
 - [callhierarchy] `paths.ts` and `glob.ts` moved to `core/src/common`; `language-selector.ts` moved to `editor/src/common`. Any imports will need to be updated.
+* [debug, plugin-ext] [Debug view] Add dynamic debug configurations [#10212](https://github.com/eclipse-theia/theia/pull/10212)
+  - Changed signature of `DebugConfigurationManager.find` to receive a target DebugConfiguration instead of a configuration's name.  
+    NOTE: The original signature is still available but no longer used inside the framework and therefore marked as `deprecated`
+  - Multiple methods related to the selection of Debug configuration options were relocated from `debug-configuration-widget.tsx` to the new file `debug-configuration-select.tsx`.
+  - Removed optional interface property `DebugConfiguration.dynamic`.
+  - Added the following method to the interface `DebugService`: `fetchDynamicDebugConfiguration` as well as the property `onDidChangedDebugConfigurationProviders`.
+  - Removed method DebugPrefixConfiguration#runDynamicConfiguration
 
 ## v1.25.0 - 4/28/2022
 
