@@ -13,6 +13,7 @@
 <a name="breaking_changes_1.26.0">[Breaking Changes:](#breaking_changes_1.26.0)</a>
 
 - [callhierarchy] `paths.ts` and `glob.ts` moved to `core/src/common`; `language-selector.ts` moved to `editor/src/common`. Any imports will need to be updated.
+- [callhierarchy] removed the deprecated `current-editor-access.ts` file []()
 
 ## v1.25.0 - 4/28/2022
 
