@@ -17,6 +17,7 @@
 - [core] `ColorRegistry` no longer exports `Color`, `ColorDefaults`, `ColorDefinition` and `ColorCssVariable`. Import from `core/lib/common/color` instead []()
 - [core] removed deprecated `ContextMenuRenderer` method `render` []()
 - [core] removed deprecated `FOLDER_ICON` and `FILE_ICON` []()
+- [core] removed deprecated `theme` re-export, should be imported from `common/theme` instead []()
 
 ## v1.25.0 - 4/28/2022
 
