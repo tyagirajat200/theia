@@ -21,7 +21,8 @@ import { AbstractViewContribution } from '@theia/core/lib/browser/shell/view-con
 import { VSXExtensionsViewContainer } from './vsx-extensions-view-container';
 import { VSXExtensionsModel } from './vsx-extensions-model';
 import { ColorContribution } from '@theia/core/lib/browser/color-application-contribution';
-import { ColorRegistry, Color } from '@theia/core/lib/browser/color-registry';
+import { ColorRegistry } from '@theia/core/lib/browser/color-registry';
+import { Color } from '@theia/core/lib/common/color';
 import { FrontendApplicationContribution, FrontendApplication } from '@theia/core/lib/browser/frontend-application';
 import { MenuModelRegistry, MessageService } from '@theia/core/lib/common';
 import { FileDialogService, OpenFileDialogProps } from '@theia/filesystem/lib/browser';
