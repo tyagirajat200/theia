@@ -15,6 +15,7 @@
 - [callhierarchy] `paths.ts` and `glob.ts` moved to `core/src/common`; `language-selector.ts` moved to `editor/src/common`. Any imports will need to be updated.
 - [callhierarchy] removed the deprecated `current-editor-access.ts` file []()
 - [core] `ColorRegistry` no longer exports `Color`, `ColorDefaults`, `ColorDefinition` and `ColorCssVariable`. Import from `core/lib/common/color` instead []()
+- [core] removed deprecated `ContextMenuRenderer` method `render` []()
 
 ## v1.25.0 - 4/28/2022
 
