@@ -24,6 +24,7 @@
   - removed `testOverrideValue`.
   - removed `overriddenPreferenceName`.
   - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
+- [output] removed `setVisibility` from `OutputChannelManager` []()
 
 ## v1.25.0 - 4/28/2022
 
