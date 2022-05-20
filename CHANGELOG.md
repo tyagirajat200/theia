@@ -30,6 +30,7 @@
 - [output] removed `setVisibility` from `OutputChannelManager` []()
 - [output] removed deprecated const `OUTPUT_WIDGET_KIND` []()
 - [plugin-ext] deleted `untitled-resource.ts` []()
+- [plugin-ext] deleted `glob.ts` and `paths.ts` []()
 - [preferences] removed deprecated `ContextMenuCallbacks` []()
 - [process] removed the deprecated getters `input`, `output` and `errorOutput` []()
 - [workspace] removed deprecated `getDefaultWorkspacePath` []()
