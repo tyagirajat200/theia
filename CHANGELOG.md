@@ -25,6 +25,7 @@
   - removed `overriddenPreferenceName`.
   - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
 - [output] removed `setVisibility` from `OutputChannelManager` []()
+- [output] removed deprecated const `OUTPUT_WIDGET_KIND` []()
 
 ## v1.25.0 - 4/28/2022
 
