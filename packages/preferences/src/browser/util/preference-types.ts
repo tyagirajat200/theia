@@ -104,14 +104,6 @@ export namespace Preference {
         activeScopeIsFolder: false
     };
 
-    /**
-     * @deprecated since 1.15.0 this type is no longer used.
-     */
-    export interface ContextMenuCallbacks {
-        resetCallback(): void;
-        copyIDCallback(): void;
-        copyJSONCallback(): void;
-    }
 }
 
 export namespace PreferencesCommands {
