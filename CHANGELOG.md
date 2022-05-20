@@ -24,6 +24,7 @@
   - removed `testOverrideValue`.
   - removed `overriddenPreferenceName`.
   - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
+- [core] removed deprecated `JsonType` re-export from `preference-schema` []()
 - [file-search] removed deprecated `defaultIgnorePatterns` []()
 - [output] removed `setVisibility` from `OutputChannelManager` []()
 - [output] removed deprecated const `OUTPUT_WIDGET_KIND` []()
