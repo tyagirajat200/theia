@@ -26,6 +26,7 @@
   - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
 - [output] removed `setVisibility` from `OutputChannelManager` []()
 - [output] removed deprecated const `OUTPUT_WIDGET_KIND` []()
+- [plugin-ext] deleted `untitled-resource.ts` []()
 - [preferences] removed deprecated `ContextMenuCallbacks` []()
 - [process] removed the deprecated getters `input`, `output` and `errorOutput` []()
 - [workspace] removed deprecated `getDefaultWorkspacePath` []()
