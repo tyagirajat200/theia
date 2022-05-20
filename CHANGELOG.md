@@ -19,6 +19,11 @@
 - [core] removed deprecated `FOLDER_ICON` and `FILE_ICON` []()
 - [core] removed deprecated `theme` re-export, should be imported from `common/theme` instead []()
 - [core] removed deprecated `onVisibilityChanged` event from `view-container` []()
+- [core] removed deprecated methods and re-export in `preference-contribution` []()
+  - removed `overridePreferenceName`.
+  - removed `testOverrideValue`.
+  - removed `overriddenPreferenceName`.
+  - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
 
 ## v1.25.0 - 4/28/2022
 
