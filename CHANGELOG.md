@@ -26,6 +26,7 @@
   - removed `OVERRIDE_PROPERTY_PATTERN` re-export.
 - [core] removed deprecated `JsonType` re-export from `preference-schema` []()
 - [file-search] removed deprecated `defaultIgnorePatterns` []()
+- [mini-browser] removed deprecated `MiniBrowserEndpoint` and `MiniBrowserEndpoint.HANDLE_PATH` []()
 - [output] removed `setVisibility` from `OutputChannelManager` []()
 - [output] removed deprecated const `OUTPUT_WIDGET_KIND` []()
 - [plugin-ext] deleted `untitled-resource.ts` []()
