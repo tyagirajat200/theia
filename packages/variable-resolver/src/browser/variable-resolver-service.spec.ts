@@ -21,8 +21,6 @@ import { MockLogger } from '@theia/core/lib/common/test/mock-logger';
 import { Variable, VariableRegistry } from './variable';
 import { VariableResolverService } from './variable-resolver-service';
 
-/* eslint-disable no-unused-expressions */
-
 const expect = chai.expect;
 
 before(() => {
@@ -88,6 +86,6 @@ describe('variable-resolver-service', () => {
             checkAllResolved: true
         };
         const resolved = await variableResolverService.resolve('workspace: ${command:testCommand}; file: ${file}; line: ${lineNumber}', options);
-        expect(resolved).is.undefined;
+        expect(resolved).equal(undefined);
     });
 });

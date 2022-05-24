@@ -21,15 +21,21 @@ import { VariableRegistry } from './variable';
 import URI from '@theia/core/lib/common/uri';
 import { JSONExt, ReadonlyJSONValue } from '@theia/core/shared/@phosphor/coreutils';
 
+/**
+ * Holds variable-names to command id mappings (e.g. Provided by specific plugins / extensions)
+ * see "variables": https://code.visualstudio.com/api/references/contribution-points#contributes.debuggers
+ */
+export interface CommandIdVariables {
+    [id: string]: string
+}
+
 export interface VariableResolveOptions {
     context?: URI;
     /**
      * Used for resolving inputs, see https://code.visualstudio.com/docs/editor/variables-reference#_input-variables
      */
     configurationSection?: string;
-    // Holds variable-names to command id mappings (e.g. Provided by specific plugins / extensions)
-    // see "variables": https://code.visualstudio.com/api/references/contribution-points#contributes.debuggers
-    commandIdVariables?: Record<string, string>;
+    commandIdVariables?: CommandIdVariables;
     configuration?: unknown;
     // Return 'undefined' if not all variables were successfully resolved.
     checkAllResolved?: boolean;

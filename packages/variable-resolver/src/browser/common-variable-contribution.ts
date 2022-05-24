@@ -82,7 +82,6 @@ export class CommonVariableContribution implements VariableContribution {
                     const mappedValue = commandIdVariables[name];
                     commandId = mappedValue ? mappedValue : name;
                 }
-                // eslint-disable-next-line no-return-await
                 const result = commandId && await this.commands.executeCommand(commandId, configuration);
                 return result ? result : undefined;
             }
