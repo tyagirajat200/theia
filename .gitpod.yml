@@ -1,5 +1,3 @@
-image:
-  file: .gitpod.dockerfile
 ports:
   - port: 3000 # Theia
   - port: 3030 # VS Code extension tests
